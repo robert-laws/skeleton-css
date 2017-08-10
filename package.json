@@ -1,0 +1,19 @@
+{
+  "name": "skeleton-css",
+  "version": "1.0.0",
+  "description": "Skeleton CSS Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Skeleton",
+    "CSS"
+  ],
+  "author": "Robert Laws",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  }
+}
