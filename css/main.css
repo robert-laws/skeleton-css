@@ -1,0 +1,32 @@
+/* Main CSS - Custom Styles  */
+
+header {
+  background-color: #ECECEC;
+  padding: 12px 0;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.uc {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: 900;
+  line-height: 0.9em;
+  margin-top: 1em;
+}
+
+p.subtext {
+  color: grey;
+  font-size: 2rem;
+  line-height: 2.3rem;
+}
+
+@media (max-width: 400px) {
+
+}
+

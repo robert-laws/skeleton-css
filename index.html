@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Skeleton CSS - Example App</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -15,12 +15,13 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600,900" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -28,19 +29,52 @@
 
 </head>
 <body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="one column">
+          <a href="#" id="logo">good<span>eats</span></a>
+        </div>
+        <div class="eleven columns uc">
+          
+        </div>
+      </div>
+    </div>
+  </header>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
+  <div class="container padding">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      <div class="five columns">
+        <h1 class="uc">Absolutely Fantastic Meals</h1>
+        <p class="subtext uc">So good, you won't want to finish it!</p>
+      </div>
+      <div class="seven columns">
+        <img src="images/plate.png" alt="" id="plate">
       </div>
     </div>
   </div>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="purple-container">
+    <div class="cut"></div>
+    <div class="container padding2">
+      <div class="row">
+        <div class="one-half column">
+          <img src="images/donut.png" id="donut" alt="">
+        </div>
+        <div class="one-half column">
+          <h2 class="uc wt">food genius</h2>
+          <p class="wt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas quas voluptatibus accusamus velit repellat voluptatum, quo obcaecati neque odit magnam numquam! Ipsam architecto non assumenda quae nisi, consequuntur neque sint, id, dicta ad nam eaque excepturi distinctio culpa dolor praesentium necessitatibus voluptates vero pariatur reprehenderit ratione.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="dp-container">
+    <div class="container padding3">
+      <div class="row">
+        <h2 class="uc wt">Ready for some good eats?</h2>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
