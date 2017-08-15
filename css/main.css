@@ -103,3 +103,94 @@ header ul li a {
 #dp-container {
   background-color: #210031;
 }
+
+label {
+  color: #836C8C;
+  font-weight: 300;
+}
+
+input[type=text] {
+  background: none;
+  border: 1px solid #593E73 !important;
+  outline: 0 !important;
+  color: #FFF;
+}
+
+select {
+  background: none;
+  border: 1px solid #593E73 !important;
+  color: #836C8C;
+}
+
+#cta {
+  font-size: 1.8rem;
+  padding: 0.5rem 3rem;
+  height: auto;
+}
+
+input[type=submit] {
+  margin-top: 24px;
+}
+
+@media (max-width: 550px) {
+  #logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    width: 100%;
+  }
+
+  ul li {
+    display: block;
+    width: 100%;
+    margin: 1px 0 0 0;
+    padding: 0;
+  }
+
+  header ul li a {
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px;
+  }
+
+  header ul li:last-child a {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .padding {
+    padding-top: 1.5em;
+  }
+
+  .padding2 {
+    padding-top: 3em;
+  }
+
+  h1, h2, h3, p {
+    text-align: center;
+  }
+
+  #plate {
+    float: none !important;
+  }
+
+  #cta {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  #plate {
+    float: right;
+  }
+}

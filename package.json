@@ -18,6 +18,9 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-uncss": "^1.0.6"
   }
 }
